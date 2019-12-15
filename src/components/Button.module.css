@@ -1,0 +1,17 @@
+@import 'constants.css';
+
+.Button {
+	margin-top: calc(2 * var(--row-height));
+	border: var(--border-width) solid var(--color-basic-1);
+	border-radius: var(--border-radius);
+	padding: calc(var(--row-height) - var(--border-width)) var(--side-padding);
+	width: var(--button-width);
+	background-color: var(--color-basic-2);
+	color: var(--color-basic-1);
+	cursor: pointer;
+}
+
+.Button:hover,
+.Button:focus {
+	background-color: var(--color-additional-1);
+}

@@ -1,0 +1,9 @@
+.Picture {
+	width: var(--picture-width);
+	height: var(--picture-height);
+}
+
+.Picture__Smaller {
+	width: calc(0.5 * var(--picture-width));
+	height: calc(0.5 * var(--picture-height));
+}

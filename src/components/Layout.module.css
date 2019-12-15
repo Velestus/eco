@@ -1,0 +1,19 @@
+@import 'constants.css';
+
+.Layout {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+	max-width: var(--app-width);
+	flex-basis: auto;
+	align-items: center;
+}
+
+.Layout__Horizontal {
+	padding: 0;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

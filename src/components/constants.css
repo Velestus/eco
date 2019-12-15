@@ -1,0 +1,18 @@
+:root {
+	--border-width: 1px;
+	--border-radius: 5px;
+	--row-height: 8px;
+	--side-padding: 16px;
+
+	--button-width: 180px;
+	--loader-size: 80px;
+	--picture-width: 250px;
+	--picture-height: 350px;
+	--app-width: 1200px;
+
+	--color-basic-1: #fff;
+	--color-basic-2: hsl(120, 100%, 25%);
+	--color-basic-3: #000;
+	--color-basic-4: hsl(120, 100%, 90%);
+	--color-additional-1: hsl(120, 100%, 35%);
+}

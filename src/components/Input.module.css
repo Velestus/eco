@@ -1,0 +1,14 @@
+.Wrapper {
+	display: inline-block;
+	text-align: left;
+}
+
+.Wrapper + .Wrapper {
+	margin-top: calc(3 * var(--row-height));
+}
+
+.Input {
+	border: var(--border-width) solid var(--color-basic-3);
+	border-radius: var(--border-radius);
+	padding: var(--row-height) calc(2 * var(--side-padding));
+}

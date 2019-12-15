@@ -1,0 +1,43 @@
+.Card {
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: var(--row-height) var(--side-padding);
+	width: 100%;
+}
+
+.Content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	box-sizing: border-box;
+	border: calc(2 * var(--border-width)) solid var(--color-basic-2);
+	padding: calc(2 * var(--row-height)) var(--side-padding);
+	background-color: var(--color-basic-4);
+	border-radius: calc(5 * var(--border-radius));
+}
+
+.Card__Quarter {
+	width: calc(var(--app-width) / 4);
+}
+
+.Card__Third {
+	width: calc(var(--app-width) / 3);
+}
+
+.Card__Half {
+	width: calc(var(--app-width) / 2);
+}
+
+.Card__Full {
+	max-width: var(--app-width);
+}
+
+.Card__Half .Content,
+.Card__Full .Content {
+	flex-wrap: wrap;
+}
+
+.Description {
+	text-align: left;
+}
